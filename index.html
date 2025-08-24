@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>신일섭 - Portfolio</title>
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- Navigation -->
@@ -12,9 +12,10 @@
         <div class="nav-container">
             <div class="nav-brand">Portfolio</div>
             <div class="nav-menu">
-                <a href="index.html" class="nav-link active">Home</a>
-                <a href="skills.html" class="nav-link">Skills</a>
-                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#career" class="nav-link">Career</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </div>
         </div>
@@ -23,29 +24,22 @@
     <!-- Main Content -->
     <main class="main-content">
         <!-- Hero Section -->
-        <section class="hero-section">
+        <section id="home" class="hero-section">
             <div class="hero-content">
                 <div class="hero-left">
                     <div class="intro-badge">
-                        <span class="badge-icon">📱</span>
-                        <span>DEVELOPER</span>
+                        <span class="badge-icon">🌱</span>
+                        <span>Smart Farm Specialist</span>
                     </div>
                     <h1 class="hero-title">
-                        Growth-<br>
-                        Oriented<br>
-                        <span class="title-highlight">Developer</span>
+                        안녕하세요 저는 AI 기술로 농업의 미래를 열어가는 전문가 신 일섭 입니다
                     </h1>
-                    <p class="hero-description">자동차 설계엔지니어로 정년퇴직을하고 JAVA Spring Boot 바탕으로 AI와 IoT를 활용해 농업을 자동화하고 최적화하는 스마트팜 분야에 집중하고 있습니다.</p>
-                    <div class="hero-buttons">
-                        <button class="btn btn-primary">프로젝트 보기</button>
-                        <button class="btn btn-secondary">이력서</button>
-                    </div>
+                    <p class="hero-description">AI와 IoT를 활용해 농업을 자동화하고 최적화하는 스마트팜 분야에 집중하고 있습니다. 데이터와 기술이 만나는 지점에서 더 효율적이고 지속가능한 농업을 만들어내는 과정에 매력을 느끼며, 새로운 시도를 통해 미래 농업의 가능성을 열어가는 것을 좋아합니다.</p>
                 </div>
                 <div class="hero-right">
                     <div class="profile-image-container">
                         <img class="avatar" src="images/profile.png" alt="profile">
                         <div class="profile-image-placeholder" style="display: {PROFILE_IMAGE_PLACEHOLDER_DISPLAY};">
-                            <span>사진</span>
                         </div>
                     </div>
                 </div>
@@ -53,7 +47,7 @@
         </section>
 
         <!-- Info Cards Section -->
-        <section class="info-section">
+        <section id="info" class="info-section">
             <div class="info-cards">
                 <!-- Education Card -->
                 <div class="info-card education-card">
@@ -101,23 +95,175 @@
             </div>
         </section>
 
-        <!-- About Section -->
-        <section class="about-section">
-            <div class="about-content">
-                <div class="about-image">
-                    <div class="about-image-placeholder">
-                        <span>사진</span>
+
+
+        <!-- Career Section -->
+        <section id="career" class="career-section">
+            <div class="career-content">
+                <h2>경력사항</h2>
+                <div class="career-grid">
+                    <div class="career-card">
+                        <div class="career-header">
+                            <div class="career-icon">🏢</div>
+                            <div class="career-meta">
+                                <h3 class="career-company">현대자동차</h3>
+                                <div class="career-period">1989.2 - 1991.11</div>
+                                <div class="career-position">차량 Body Engineering Designer(사원)</div>
+                            </div>
+                        </div>
+                        <div class="career-content">
+                            <p>• Vehicle Body Trunk Lid 설계배포 및 시작차량 제작 조립 Process검증<br>• 양산차량 품질 문제 분석 및 개선</p>
+                        </div>
+                    </div>
+                    
+                    <div class="career-card">
+                        <div class="career-header">
+                            <div class="career-icon">🏢</div>
+                            <div class="career-meta">
+                                <h3 class="career-company">KGM(구:쌍용자동차)</h3>
+                                <div class="career-period">1991.12 - 2023.12</div>
+                                <div class="career-position">차량 Body Engineering Designer(주임연구원), 차량 Interior Engineering Designer(책임연구원)</div>
+                            </div>
+                        </div>
+                        <div class="career-content">
+                            <p>• Vehicle Body Door설계배포 및 Proto/Pilot차량 제작 Process검증(품질/조립성/시험/양산성/정비성)<br>• 양산차량 품질 문제 분석 및 개선</p>
+                        </div>
+                    </div>
+                    
+                    <div class="career-card">
+                        <div class="career-header">
+                            <div class="career-icon">🎓</div>
+                            <div class="career-meta">
+                                <h3 class="career-company">중앙정보처리학원</h3>
+                                <div class="career-period">2025.04.09 - 2025.09.30</div>
+                                <div class="career-position">클라우드 데브옵스 프론트엔드&백엔드 JAVA 풀스택 개발자 취업 캠프</div>
+                            </div>
+                        </div>
+                        <div class="career-content">
+                            <p>• JAVA Spring Boot 기반 풀스택 개발 학습<br>• AI와 IoT를 활용한 스마트팜 프로젝트 개발<br>• 포트폴리오 웹사이트 및 모바일 앱 API 개발</p>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="skills-content">
+                <h2>기술 스택</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag spring-boot">Spring Boot</span>
+                            <span class="skill-tag java">Java 17</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Express.js</span>
+                            <span class="skill-tag">Python</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Database</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag mysql">MySQL</span>
+                            <span class="skill-tag">Oracle</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">MyBatis</span>
+                            <span class="skill-tag">JPA</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>DevOps</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag docker">Docker</span>
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">Linux</span>
+                            <span class="skill-tag">GitHub Actions</span>
+                            <span class="skill-tag">Jenkins</span>
+                        </div>
                     </div>
                 </div>
-                <div class="about-text">
-                    <h2 class="about-title">
-                        신일섭 | 함께 성장하는 개발자
-                    </h2>
-                    <div class="about-description">
-                        <p>Java를 주된 언어로 사용하여, Spring과 Spring Boot를 기반으로 한 웹 백엔드 개발에 집중하고 있습니다. 최근 기술과 아키텍처를 빠르게 학습하고, 새로운 기술스택을 익혀 나가는 것에 흥미를 가지고 있습니다.</p>
-                        
-                        <p>새로운 충실히 승부하는 올바른을 광야에서 이것이야말로 커다란 것은 약동하다. 
-                           싶이 갓매야 하는 무엇인가 의기양양하다.</p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="projects-content">
+                <h2>프로젝트</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">💻🌿</div>
+                            <div class="project-meta">
+                                <h3 class="project-title">스마트팜 자동제어(Smart Farm Automated Control)</h3>
+                                <div class="project-period">2025.08(개인)</div>
+                                <div class="project-tech">Spring Boot, Mybatis, Oracle, Claude, Cursor, ChatGpt</div>
+                            </div>
+                        </div>
+                        <div class="project-description">
+                            <div class="project-subtitle">"AI와 IoT로 환경을 읽고 스스로 작동하는 미래형 농장 제어 시스템"</div>
+                            <p>센서온, 습도, 조도, 토양수 등을 실시간 데이터 수집하여 IoT 기반 알고리즘이 이를 분석 예측하여 (펌프, 팬, LED, 난방기)등을 사용 제어하면 컴퓨터의 자동 제어로 자연 생육을 최적화하고 노동시간을 절약을 돕는 시스템입니다.</p>
+                        </div>
+                        <button class="project-link-button">완료</button>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">📱</div>
+                            <div class="project-meta">
+                                <h3 class="project-title">PortFolio 모바일 앱 API</h3>
+                                <div class="project-period">2025.08(개인)</div>
+                                <div class="project-tech">Spring Boot, Mybatis, Oracle, Claude, Cursor, ChatGpt</div>
+                            </div>
+                        </div>
+                        <div class="project-description">
+                            <div class="project-subtitle">"PORTFOLIO 모바일 앱 개발 프로젝트"</div>
+                            <p>개인 이력과 경력, 자격증, 프로젝트 정보들 모바일 환경에서 손쉽게 입력·관리할 수 있는 앱을 설계하고 구현했습니다. 사용자가 입력한 데이터들을 기반으로 자동으로 포트폴리오 페이지가 생성되며, Github Pages와 같은 외부 플랫폼에 배포할 수 있는 기능을 제공합니다.</p>
+                        </div>
+                        <button class="project-link-button">완료</button>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">🔄</div>
+                            <div class="project-meta">
+                                <h3 class="project-title">WorkFlowAutomation</h3>
+                                <div class="project-period">2025.08 - 2025.09(예정)</div>
+                                <div class="project-tech">Spring Boot, Mybatis, Oracle, Claude, Cursor, ChatGpt</div>
+                            </div>
+                        </div>
+                        <div class="project-description">
+                            <div class="project-subtitle">"소규모 제조업 인사/구매/생산/자재재고/판매의 업무자동화(Small Smart ERP)"</div>
+                            <p>소규모 제조업을 위한 Small Smart ERP는 인사, 구매, 생산, 자재재고 판매를 하나의 플랫폼에서 자동화·통합 관리하는 시스템입니다. MRP 기능을 포함하여 생산계획에 따라 필요한 자재를 자동 산출하고, 구매 및 재고의 연동으로 자재 부족이나 과잉을 방지합니다.</p>
+                        </div>
+                        <button class="project-link-button">개발 중</button>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">🌱</div>
+                            <div class="project-meta">
+                                <h3 class="project-title">미래형 AI & Big Data SmartFarm</h3>
+                                <div class="project-period">2025.10 -11(예정)</div>
+                                <div class="project-tech">Spring Boot, Mybatis, Oracle, Claude, Cursor, ChatGpt</div>
+                            </div>
+                        </div>
+                        <div class="project-description">
+                            <div class="project-subtitle">"IoT센서자동제어기술과 빅데이터와 인공지능기술을 적용한 미래형 스마트팜"</div>
+                            <p>스마트팜 분야에서 빅데이터와 AI의 역할에 주목하고 있습니다. 단순히 자동화 수준을 넘어서 농업 전 과정을 지능화하는 핵심 기술로 활용됩니다. 센서로 수집되는 작물 생육 데이터와 환경 데이터를 빅데이터 분석 기법으로 가공하면 최적의 재배 환경을 도출할 수 있습니다.</p>
+                        </div>
+                        <button class="project-link-button">개발 예정</button>
                     </div>
                 </div>
             </div>
@@ -148,5 +294,70 @@
             </div>
         </div>
     </section>
+
+    <script>
+        // 부드러운 스크롤 및 네비게이션 기능
+        document.addEventListener('DOMContentLoaded', function() {
+            // 네비게이션 링크 클릭 이벤트
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetSection = document.getElementById(targetId);
+                    
+                    if (targetSection) {
+                        // 활성 링크 업데이트
+                        navLinks.forEach(l => l.classList.remove('active'));
+                        this.classList.add('active');
+                        
+                        // 부드러운 스크롤
+                        targetSection.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+            
+            // 스크롤 시 활성 네비게이션 업데이트
+            window.addEventListener('scroll', function() {
+                const sections = document.querySelectorAll('section[id]');
+                const scrollPos = window.scrollY + 100;
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.offsetHeight;
+                    const sectionId = section.getAttribute('id');
+                    const navLink = document.querySelector(`.nav-link[href="#${sectionId}"]`);
+                    
+                    if (scrollPos >= sectionTop && scrollPos < sectionTop + sectionHeight) {
+                        navLinks.forEach(l => l.classList.remove('active'));
+                        if (navLink) navLink.classList.add('active');
+                    }
+                });
+            });
+            
+            // 프로젝트 보기 버튼 클릭 이벤트
+            const projectBtn = document.querySelector('.btn-primary');
+            if (projectBtn) {
+                projectBtn.addEventListener('click', function() {
+                    const projectsSection = document.getElementById('projects');
+                    if (projectsSection) {
+                        projectsSection.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                        
+                        // 네비게이션 활성화
+                        navLinks.forEach(l => l.classList.remove('active'));
+                        document.querySelector('.nav-link[href="#projects"]').classList.add('active');
+                    }
+                });
+            }
+        });
+    </script>
 </body>
 </html>
