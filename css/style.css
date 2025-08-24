@@ -10,6 +10,7 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #f8f9fa;
+    text-align: center;
 }
 
 /* Navigation */
@@ -311,6 +312,20 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 2rem;
+}
+
+.skills-content h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.section-subtitle {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 3rem;
 }
 
 .page-header {
@@ -788,19 +803,21 @@ body {
     /* Navigation */
     .nav-container {
         padding: 0 1rem;
-        flex-direction: column;
+        flex-direction: row;
         gap: 1rem;
+        align-items: center;
     }
     
     .nav-menu {
         gap: 0.5rem;
         flex-wrap: wrap;
         justify-content: center;
+        flex-direction: row;
     }
     
     .nav-link {
-        padding: 8px 12px;
-        font-size: 14px;
+        padding: 6px 10px;
+        font-size: 13px;
     }
     
     /* Hero Section */
@@ -963,13 +980,14 @@ body {
     }
     
     .nav-menu {
-        flex-direction: column;
-        gap: 0.5rem;
+        flex-direction: row;
+        gap: 0.3rem;
+        flex-wrap: wrap;
     }
     
     .nav-link {
-        padding: 6px 10px;
-        font-size: 13px;
+        padding: 4px 8px;
+        font-size: 12px;
     }
     
     .profile-image-placeholder,
